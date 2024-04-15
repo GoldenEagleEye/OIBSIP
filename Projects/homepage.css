@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo img {
+  height: 50px; 
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: blue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.left-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-side {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.right-side h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.right-side p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: grey;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+h2{
+  font: 30px;
+  margin-left: 60px;
+  
+}
+.feature-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.feature {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.feature a .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.performers-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.performers-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.performer {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: calc(100% / 5 - 40px); /* Adjust width based on number of performers */
+  margin: 0 20px;
+}
+
+.performer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.performer h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.performer p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-us,
+.follow-us {
+  text-align: center;
+}
+
+.contact-us h3,
+.follow-us h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-us ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.footer-info p {
+  font-size: 14px;
+}
